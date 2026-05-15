@@ -18,7 +18,7 @@ cd books-library
 # 2. Inicie os containers
 docker compose up -d
 
-# 3. Aguarde 30 segundos e acesse
+# 3. Aguarde docker terminar e acesse
 # Frontend: http://localhost:3000
 # Backend API: http://localhost:3333
 

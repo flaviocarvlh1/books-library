@@ -41,11 +41,13 @@ docker compose ps
 Interface do usuário
 A escolha do frontend foi baseada em uma interface que remetesse a uma biblioteca visual e organizada, conforme referência da imagem enviada. Optou-se por:
 
-Barra de pesquisa + filtro + botão de adicionar livro → usabilidade direta e intuitiva
+Barra de pesquisa + filtro + botão de adicionar livro → usabilidade direta e intuitiva.
 
-Cards de livros exibindo: capa, título, gênero, autor e ano → facilita a identificação rápida
+Cards de livros exibindo: capa, título, gênero, autor e ano → facilita a identificação rápida.
 
-Fallback visual para livros sem capa: um banner com os dados do livro no lugar da imagem → evita espaços vazios e mantém a consistência da interface
+Fallback visual para livros sem capa: um banner com os dados do livro no lugar da imagem → evita espaços vazios e mantém a consistência da interface.
+
+Optei pelo Docker pra garantir que o projeto rode de forma padronizada em qualquer ambiente, sem surpresas.
 
 ```
 
